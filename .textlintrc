@@ -1,0 +1,41 @@
+{
+  "filters": {},
+  "rules": {
+    "preset-japanese": {
+      "max-ten": {
+        "severity": "warning"
+      },
+      "no-doubled-conjunctive-particle-ga": true,
+      "no-doubled-conjunction": true,
+      "no-doubled-joshi": {
+        "min_interval": 1
+      },
+      "sentence-length": {
+        "severity": "warning",
+        "max": 100
+      },
+      "no-dropping-the-ra": true,
+      "no-mix-dearu-desumasu": true,
+      "no-nfd": true
+    },
+    "ja-no-abusage": true,
+    "ja-no-mixed-period": true,
+    "ja-no-redundant-expression": true,
+    "max-kanji-continuous-len": {
+      "severity": "warning"
+    },
+    "no-double-negative-ja": true,
+    "no-hankaku-kana": true,
+    "no-mixed-zenkaku-and-hankaku-alphabet": true,
+    "ja-hiragana-fukushi": {
+      "severity": "warning"
+    },
+    "ja-hiragana-hojodoushi": {
+      "severity": "warning"
+    },
+    "ja-hiragana-keishikimeishi": {
+      "severity": "warning"
+    },
+    "prefer-tari-tari": true
+  }
+}
